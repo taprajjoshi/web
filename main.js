@@ -13,7 +13,7 @@ setInterval(updateClock, 1000);
 
 
 document.getElementById("notesButton").addEventListener("click", function() {
-    window.location.href = "https://joshibhuwan1.github.io/notes";
+    window.location.href = "https://taprajjoshi.github.io/notes";
 });
 
 document.addEventListener('DOMContentLoaded', function() {
