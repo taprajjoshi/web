@@ -18,6 +18,6 @@ document.getElementById("notesButton").addEventListener("click", function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('notesButton').addEventListener('click', function() {
-        alert('Notes button clicked!');
+        alert('You will redirected to ( taprajjoshi.github.io/notes ) ');
     });
 });
