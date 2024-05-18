@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('z.jpg'); /* Ensure this is the correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensures the body takes full viewport height */
+    margin: 0; /* Removes default body margin */
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px; /* Increased size */
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    /* Load image faster */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.clock-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.social-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center; /* Center align the links */
+}
+
+.social-links li {
+    display: inline-block; /* Changed to inline-block for mobile */
+    margin-right: 10px; /* Added margin-right for spacing */
+}
+
+.social-links li:last-child {
+    margin-right: 0; /* Remove margin-right for the last item */
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#notesButton {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Optional: For rounded corners */
+}
+
+#notesButton img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Space between image and text */
+}
+
+#notesButton:hover {
+    background-color: #e0e0e0; /* Adjust hover color as needed */
+    }
